@@ -1,0 +1,70 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+block body
+	section.logo
+		.container
+			.row
+				.col-md
+						p 
+							b Your Logo
+							i Using a single layout to create serveral different looks
+	section.menu
+		.container
+			.row.menu-row
+				.col-md-6.mune
+					.row
+						.col-md-2.menu-col
+							a(href="#" target="_blank" rel="follow,index") Home
+						.col-md-2.menu-col
+							a(href="#" target="_blank" rel="follow,index") About
+						.col-md-2.menu-col
+							a(href="#" target="_blank" rel="follow,index") Services
+						.col-md-4.menu-cold
+							a(href="#" target="_blank" rel="follow,index") Contact Us
+				.col-md-6
+	section.header
+		.container
+			.row.header-row
+				.col-md-3.set-icon
+					i.fa.fa-paper-plane-o.fa-5x
+				.col-md-6.set-text
+					h1 About
+					br
+					p And then some plain text would go in here saying sone-thing about the section we're in. Probably some glowing statement about the company or whatever
+	section
+		.container
+			.row
+				.col-md-3.nav-menu
+					.row.outline
+						.col-md.box
+							a(href="#" target="_blank" ref="follow,index") About Us
+					.row.outline
+						.col-md.box
+							a(href="#" target="_blank" ref="follow,index") How We Work
+					.row.outline
+						.col-md.box
+							a(href="#" target="_blank" ref="follow,index") Testimonials
+					.row.outline
+						.col-md.box
+							a(href="#" target="_blank" ref="follow,index") Contact Support
+				.col-md-9.article
+					h2 
+						b How We Work
+					br
+					p Morbi non dui. Aerean lorem tortor, placerat a, blandit aliquam, hendreit nec, weit, Preasent et pede. Etam non tellus, Fusce adpiscing. Nunc varius commodo enim. In habitassee platea dicturnts
+					br
+					p Quispue potiitor, pede non molis, ante dui semper liberom, eu placerat  magna odio, in molis. Numlam vehicula rhoncus arte. Vivamus vehicula veilt ac nibh. Curabtur eget justo at turpis element dapitus
+					br
+					p Praesent bibendum marris. In set elit Aerean sapien mauris, commmodo sit arret, laoreet sed, soldales vet, est. Nunc ut odio
+					br
+					p Curabitur justo telius, faucibus quis, vehicula a, massa Morbi tempus ulam corper veilt Donec vilaeala est Marius susclipt venetapis purus. Sudendase sed tortor a mi egestas pretum. Quisque nec massa pede auctor aliquam. Pelesenten tintudocun neque nec arcu 
+
+
+
+
+
